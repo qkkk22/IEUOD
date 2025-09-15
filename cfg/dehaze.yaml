@@ -1,0 +1,13 @@
+
+path: /home/ubuntu/storage/qwd/dataset_yolo/urpc2020_self/yolov12/dehaze
+train: train/images
+val: valid/images  
+test: test/images
+target: target/images  # 目标检测标签路径
+
+nc: 4
+names:
+  0: holothurian
+  1: echinus
+  2: scallop
+  3: starfish

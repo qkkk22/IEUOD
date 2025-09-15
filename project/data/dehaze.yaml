@@ -1,0 +1,16 @@
+path: /home/ubuntu/storage/qwd/dataset_yolo/urpc2020_self/yolov12/dehaze  # 数据集根目录
+train: images/train  
+val: images/valid  
+test:  images/test
+target: target
+labels: labels
+
+nc: 4
+names:
+  0: holothurian
+  1: echinus
+  2: scallop
+  3: starfish
+
+
+  
